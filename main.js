@@ -62,7 +62,7 @@ if (number % 2 === 0) {
 
 
 
-
+/*
 var number = 3;
 
 if (number > 0 && number%2 === 0) {
@@ -74,10 +74,66 @@ if (number > 0 && number%2 === 0) {
 } else {
   console.log('negative odd');
 }
+*/
+
+
+
+// ---------- Loops ------------ //
+
+/*
+for (var i=1; i <= 100; i++) {
+  if(i % 2 === 0){
+    console.log(i);
+  }
+}
+*/
+
+// divisible by 5 - way 1
+/*
+for (var i=1; i <= 100; i++) {
+  if(i % 5 === 0){
+    console.log(i);
+  }
+}
+*/
+
+// divisible by 5 - way 2
+/*
+for (var i=0; i <= 100; i=i+5) {
+    console.log(i);
+}
+*/
 
 
 
 
+/*
+var sum = 0;
+for (var i=1; i<=100; i++){
+  sum = sum + i; // or sum += i
+}
+console.log(sum);
+*/
 
 
+
+/*
+function multiply (x, y){
+  return x * y;
+}
+console.log(multiply(3, 4));
+*/
+
+
+
+/*
+function sumBetween(a, b){
+  var sum = 0;
+  for (var i = a; i <= b; i++){
+    sum += i;
+  }
+  return sum;
+}
+console.log(sumBetween(1, 100));
+*/
 
