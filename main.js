@@ -2,13 +2,13 @@
   We will use this file to add the Code that you will learn in JS-Core Class 1
   Update this file, then run it from the console using the command:
 
-      node class-exercises.js
+  node class-exercises.js
 */
 
-//console.log('Hello World. I just started learning JavaScript!');
-//console.log('My name is Islam Dudaev');
-//console.log('I like coding..');
-//console.log(28);
+console.log('Hello World. I just started learning JavaScript!');
+console.log('My name is Islam Dudaev');
+console.log('I like coding..');
+console.log(28);
 
 /*
 console.log(typeof 'Hello world!');
